@@ -46,7 +46,7 @@ export GO111MODULE=on
 (
   cd client
   npm install --loglevel=error
-  npm run build
+  NODE_OPTIONS=--openssl-legacy-provider npm run build
 )
 
 go generate ${GO_FLAGS} ./cmd/... ./pkg/...

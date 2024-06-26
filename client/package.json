@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "node --openssl-legacy-provider ./node_modules/.bin/webpack-dev-server --mode development",
     "dev": "webpack -d --watch --mode development",
     "build": "webpack --mode=production"
   },
