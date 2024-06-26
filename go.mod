@@ -7,6 +7,7 @@ require (
 	github.com/dustin/go-humanize v1.0.0
 	github.com/elazarl/go-bindata-assetfs v1.0.0
 	github.com/felixge/httpsnoop v1.0.0
+	github.com/jteeuwen/go-bindata v3.0.7+incompatible // indirect
 	github.com/julienschmidt/httprouter v1.2.0
 	github.com/miekg/dns v1.1.6
 	github.com/pkg/errors v0.8.1
